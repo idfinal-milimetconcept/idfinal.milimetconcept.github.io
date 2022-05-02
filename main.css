@@ -1,0 +1,227 @@
+@charset "UTF-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding:0;
+}
+body{
+	background-color: #F4E9D7;
+}
+#header .round1{
+	display:flex;
+	justify-content:space-between;
+	align-items:flex-start;
+	padding: 50px 70px 0;
+	font-size: 25px;
+}
+#header .round1 ul li{
+	display: inline;
+	padding: 0 5px;
+}
+#header .round2 table, tr, th{
+	font-size: 20px;
+	border: 2px solid #656868;
+	border-collapse: collapse;
+	padding: 5px 0;
+	text-align: center;
+}
+#header .round2 table{
+	margin: 0 auto;
+	width: 100%;
+}
+#header table{
+	table-layout: fixed;
+	width:100%;
+}
+.tag a{
+  text-decoration: none;
+  color: #656868;
+  font-size: 20px;
+  display:inline-block;
+  padding: 10px
+}
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: #F4E9D7;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 250px;
+  display: none;
+}
+ul li ul li { 
+  background: #F4E9D7; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #FEBE34;}
+
+.imgsection1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding-top: 100px;
+}
+.tieude{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.section2 hr{
+	margin: 100px 0;
+	border: 1px solid #656868;
+}
+.section2 .gioithieu{
+	display: flex;
+}
+.section2 .gioithieu .hinhanh, .thongtin{
+	width: 50%;
+	position: relative;
+}
+.section2 .gioithieu .hinhanh img{
+	width: 60%;
+	border: 2px solid #656868;
+}
+.section2 .anhgt2{
+	position: absolute;
+	top: 0;
+	left: 200px;
+}
+.section2 .anhgt1{
+	position: absolute;
+	top: 200px;
+	left: 100px;
+}
+.section2 .thongtin{
+	top: 150px
+}
+.section2 .thongtin .doan1{
+	padding-top: 20px;
+}
+.section2 .thongtin .doan2{
+	padding-top: 20px;
+}
+.section3 hr{
+	margin-top: 300px;
+	margin-bottom: 100px;
+	border: 1px solid #656868;
+}
+.section3 h3{
+	text-align: center;
+}
+.dvtuvan{
+	margin: auto 50px;
+}
+.section3 .dichvu{
+	padding-top: 20px;
+}
+.section3 .right{
+	background-image: url(tuvan.jpeg);
+	background-size: cover;
+}
+.dvkhac{
+	display:flex;
+	justify-content: space-around;
+	padding-top: 50px;
+}
+.dvthietke{
+	border: 2px solid #656868;
+	background-color: #FFFFFF;
+}
+.dvthicong{
+	border: 2px solid #656868;
+	background-color: #FFFFFF;
+}
+.dvsanxuat{
+	border: 2px solid #656868;
+	background-color: #FFFFFF;
+}
+.section5 hr{
+	margin: 100px 0;
+	border: 1px solid #656868;
+}
+.section5 .duan{
+	display: flex;
+}
+.section5 .duan .tenduan, .hinhanhduan{
+	width: 50%;
+	position: relative;
+}
+.section5 .duan .hinhanhduan img{
+	width: 100%;
+	border: 2px solid #656868;
+	border-radius: 50px
+}
+.section5 .tenduan{
+	top: 370px
+}
+.section4 hr{
+	margin: 100px 0;
+	border: 1px solid #656868;
+}
+.item{
+	background-color: #FFFFFF;
+	border: 2px solid #656868;
+	border-sizing: border-box;
+	height: 450px;
+	margin: 0 auto 100px;
+}
+.item h4{
+	padding-top: 40px;
+	text-align: center;
+}
+.cacphongcach{
+	padding-left: 70px;
+}
+.xuhuong{
+	padding-left: 70px;
+}
+.section4 .container p{
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.section6 table select, textarea, input{
+	width: 100%;
+}
+.section6 table input, select, textarea{
+	padding: 9px 50px;
+	border: 1px solid #FEBE34;
+}
+.section6 table, tr, td{
+	padding: 5px 10px;
+}
+.section6 table{
+	margin: 0 auto 100px;
+	border:none;
+}
+.lienhengay{
+	padding-top: 50px;
+	letter-spacing: 1.5px;
+}
+.end1 ul li{
+	display: inline;
+	justify-content: space-between;
+	padding: 30px;
+	font-size: 25px;
+}
+.end1{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 50px;
+}
+.end2{
+	text-align: center;
+	padding-top: 50px;
+    padding-bottom: 50px;
+	letter-spacing: 5px;
+}
+
+
+
+
